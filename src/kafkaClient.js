@@ -1,6 +1,8 @@
 import { Kafka } from "kafkajs";
+import { KAFKA_PORT } from "../constants"
 
+const PRIVATE_IP = process.env.PRIVATE_IP
 export const kakfaClient = new Kafka({
-    clientId: 'tomato',
-    brokers: ['192.168.225.126:9092'],
+    clientId: 'zomato',
+    brokers: [`${PRIVATE_IP}:${KAFKA_PORT}`],
 })

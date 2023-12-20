@@ -1,4 +1,6 @@
 import { kakfaClient } from "./kafkaClient.js";
+import * as dotenv from "dotenv"
+dotenv.config()
 
 async function init() {
     const admin = kakfaClient.admin()
