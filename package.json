@@ -2,11 +2,18 @@
   "name": "kafka-rider",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "admin.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/admin.js"
   },
+  "type": "module",
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
