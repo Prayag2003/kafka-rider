@@ -1,25 +1,21 @@
-import { kakfaClient } from "./kafkaClient.js";
-import * as dotenv from "dotenv"
-dotenv.config()
+import kafkaClient from "./kafkaClient.js";
 
 async function init() {
-    const admin = kakfaClient.admin()
+    const admin = kafkaClient.admin()
     await admin.connect()
     console.log("Admin connected");
-
-    console.log("Creating a Topic [rider-updates]...");
+    console.log("Creating a Topic -> [location-updates]...");
     await admin.createTopics({
         topics: [{
-            topic: 'rider-updates',
+            topic: 'location-updates',
+            // North-India, South-India { based on locations }
             numPartitions: 2
         }]
     })
-    console.log("Topic [rider-updates] created...");
+    console.log("Topic [location-updates] created...");
 
     console.log("Disconnecting Admin");
     await admin.disconnect()
 }
 
 init()
-
-
