@@ -1,4 +1,4 @@
-import kafkaClient from "./kafkaClient.js";
+import kafkaClient from './kafkaClient.js';
 
 async function init() {
     const admin = kafkaClient.admin()
