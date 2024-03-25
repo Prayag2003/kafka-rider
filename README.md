@@ -99,4 +99,34 @@
      partitions among the remaining consumers to maintain a balanced workload.
      ![ Auto Balancing ](./readme-images/consumer-group-3.webp)
 
-  
+## Contributing
+We welcome contributions from the community to improve Kafka Rider. Please follow these guidelines when contributing:
+
+- **Code of Conduct**
+  - Before contributing, please read and adhere to the Code of Conduct.
+
+- **How to Contribute**
+  1. Fork the repository and clone it to your local machine.
+  2. Create a new branch for your feature or bug fix:
+     ```bash
+     git checkout -b feature/your-feature-name
+     ```
+  3. Make your changes and ensure the code style follows the project's conventions.
+  4. Write tests to cover your changes and ensure they pass.
+  5. Commit your changes with descriptive commit messages.
+  6. Push your branch to your fork:
+     ```bash
+     git push origin feature/your-feature-name
+     ```
+  7. Open a pull request against the main repository's `main` branch.
+
+- **Issue Reporting**
+  - If you encounter any bugs or issues, please open an issue on the GitHub repository. Provide detailed information about the problem you're facing, including steps to reproduce it.
+
+- **Feature Requests**
+  - We welcome feature requests! If you have an idea for a new feature or enhancement, please open an issue on the GitHub repository and describe your proposal.
+
+- **Code Review**
+  - Pull requests will undergo code review before they are merged. Reviewers will provide feedback and suggestions for improvement. Once all feedback is addressed and the tests pass, the pull request can be merged into the main repository.
+
+Thank you for contributing to Kafka Rider! 🚀
