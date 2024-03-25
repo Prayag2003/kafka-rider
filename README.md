@@ -1,5 +1,5 @@
 # Kafka Rider: Real-Time Distributed Delivery Service
-## Check out my [Medium Blog Post](https://medium.com/your-username/your-blog-post-title) 📚
+## Check out my [Medium Blog Post](https://medium.com/@prayagbhatt2003/kafka-x-zomato-c07c02da09cd) 📚
 
 ## Introduction
 - Kafka Rider is a real-time distributed delivery service built on top of Apache Kafka.
